@@ -1,8 +1,11 @@
 html {
     height: 100%;
+    /*border: 6px green dotted;*/
 }
 
 body {
+	/*border: 4px blue dashed;*/
+    height: 100%;
     background: rgba(146, 221, 195, 1);
     background: -moz-linear-gradient(top, rgba(146, 221, 195, 1) 0%, rgba(117, 209, 177, 1) 41%, rgba(226, 141, 174, 1) 77%, rgba(226, 156, 141, 1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(146, 221, 195, 1)), color-stop(41%, rgba(117, 209, 177, 1)), color-stop(77%, rgba(226, 141, 174, 1)), color-stop(100%, rgba(226, 156, 141, 1)));
@@ -13,14 +16,20 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#92ddc3', endColorstr='#e29c8d', GradientType=0);
 }
 
-.row {
-    display: flex;
-    align-items: center;
-}
-
 img {
-    width: 300px;
+    max-height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+.col-md-3,
+.col-md-4 {padding: 50px 0 50px 0;
+
+}
+.container-fluid {
+	/*border: 5px solid grey;*/
+	height: 100%;
+	overflow: auto;
+}
+
