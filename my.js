@@ -4,6 +4,7 @@ $(document).ready(function() {
     var atheismClick = 0;
     var skrillClick = 0;
     var zombieClick = 0;
+    var trigglyClick = 0;
 
     $('#skrill-img').click(function() {
         if (skrillClick < 3) {
@@ -20,7 +21,13 @@ $(document).ready(function() {
     });
 
     $('#triggly-img').click(function() {
-        document.getElementById('triggly-audio').play();
+        if (trigglyClick < 2) {
+            document.getElementById('triggly-audio' + trigglyClick).play();
+            trigglyClick++;
+        } else {
+            document.getElementById('triggly-audio0').play();
+            trigglyClick = 1;
+        }
     });
 
     $('#zombie-img').click(function() {
