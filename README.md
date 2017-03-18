@@ -10,5 +10,8 @@ A Soundboard of our favorite SJW's!
   - Smugglypuff
   - Mustache Man
   - Dindu's
+  - Aid's Bjorn
+  - Brittany Venti
+  - Sam Hyde
 - Have at least two audio clips per SJW
 - Eventually rewrite JS function so it's more efficient/compact
