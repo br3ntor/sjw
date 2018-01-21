@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	/*border: 4px blue dashed;*/
+    /*border: 4px blue dashed;*/
     height: 100%;
     background: rgba(146, 221, 195, 1);
     background: -moz-linear-gradient(top, rgba(146, 221, 195, 1) 0%, rgba(117, 209, 177, 1) 41%, rgba(226, 141, 174, 1) 77%, rgba(226, 156, 141, 1) 100%);
@@ -16,6 +16,24 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#92ddc3', endColorstr='#e29c8d', GradientType=0);
 }
 
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    /*font-family: Verdana;*/
+    font-size: 6em;
+    color: hsla(280, 100%, 50%, 1);
+    /* text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #606060, 
+    2px 1px 1px #ccc, 1px 2px 1px #606060,
+    3px 2px 1px #ccc, 2px 3px 1px #606060,
+    4px 3px 1px #ccc, 3px 4px 1px #606060,
+    5px 4px 1px #ccc, 4px 5px 1px #606060,
+    6px 5px 1px #ccc, 5px 6px 1px #606060,
+    7px 6px 1px #ccc; */
+}
+
+p {
+    color: white;
+}
 img {
     max-height: 300px;
     display: block;
@@ -24,13 +42,22 @@ img {
     cursor: pointer;
 }
 
+/*zoom on hover*/
+img:hover {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
 .col-md-3,
-.col-md-4 {padding: 50px 0 50px 0;
-
+.col-md-4 {
+    padding: 50px 0 50px 0;
 }
+
 .container-fluid {
-	/*border: 5px solid grey;*/
-	height: 100%;
-	overflow: auto;
+    /*border: 5px solid grey;*/
+    height: 100%;
+    overflow: auto;
 }
-
